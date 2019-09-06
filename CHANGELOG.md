@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.0.1] - 2019-09-06
+
 ## [3.12.0] - 2019-08-27
 ### Added
 - Accordion menu to footer on mobile.
