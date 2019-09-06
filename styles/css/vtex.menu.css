@@ -1,0 +1,72 @@
+/* TOP MENU - ITEM LARANJA */
+.menuItem--first-type .styledLinkContainer{
+    margin: 10px;
+    border: solid 2px #fb750d;
+    padding: 5px 0px;
+    border-radius: 10px 0;
+    transition: 300ms;
+    background: #fff;
+    display: table;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    width: 70px;
+    text-align: center;
+}
+
+.menuItem--first-type span div{
+    text-align: center;
+    white-space: normal;
+    font-size: 13px;
+    color: #fb750d;
+}
+
+/* TOP MENU - ITEM VERDE CLARO */
+.menuItem--second-type .styledLinkContainer{
+    margin: 10px;
+    border: solid 2px #00a917;
+    padding: 5px 0px;
+    border-radius: 10px 0;
+    transition: 300ms;
+    background: #fff;
+    display: table;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    width: 130px;
+}
+
+.menuItem--second-type span div{
+    text-align: center;
+    white-space: normal;
+    font-size: 13px;
+    color: #00a917;
+}
+
+/* TOP MENU - ITEM VERDE ESCURO */
+.menuItem--third-type .styledLinkContainer{
+    margin: 10px;
+    border: solid 2px #002d00;
+    padding: 5px 0px;
+    border-radius: 10px 0;
+    transition: 300ms;
+    background: #fff;
+    display: table;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    width: 130px;
+}
+
+.menuItem--third-type span div{
+    text-align: center;
+    white-space: normal;
+    font-size: 13px;
+    color: #002d00;
+}
+
+.menuContainer--mainNav , .menuContainer--mainNav .styledLinkContainer:nth-child(1) {
+    height: 80px;
+}
+
+

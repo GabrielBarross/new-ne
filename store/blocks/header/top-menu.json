@@ -1,0 +1,167 @@
+{
+  "vtex.menu@2.x:menu#top": {
+    "children": [
+      "menu-item#order",
+      "menu-item#account",
+      "menu-item#receipt",
+      "menu-item#stores",
+      "menu-item#whats",
+      "menu-item#phone"
+    ]
+  },
+
+  "menu-item#order":{
+    "props":{
+      "id": "menu-item-order",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "first-type",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Meus Pedidos",
+        "text": "MEUS PEDIDOS"
+      }
+    }
+  },
+  "menu-item#account":{
+    "props":{
+      "id": "menu-item-account",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "first-type",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Minha Conta",
+        "text": "MINHA CONTA"
+      }
+    }
+  },
+  "menu-item#receipt":{
+    "props":{
+      "id": "menu-item-receipt",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "second-type",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Manipule a Receita",
+        "text": "MANIPULE SUA RECEITA"
+      }
+    }
+  },
+  "menu-item#stores":{
+    "props":{
+      "id": "menu-item-stores",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "third-type",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Conheça as Lojas",
+        "text": "CONHEÇA AS LOJAS"
+      }
+    }
+  },
+  "menu-item#whats":{
+    "props":{
+      "id": "menu-item-whats",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "second-type",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Compre por Whatsapp",
+        "text": "COMPRE NO WHATSAPP"
+      }
+    }
+  },
+  "menu-item#phone":{
+    "props":{
+      "id": "menu-item-phone",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "third-type",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Compre no Telefone",
+        "text": "COMPRE NO TELEFONE"
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+  "menu-item#shop": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Shop"
+      }
+    }
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "about-us",
+        "text": "About Us"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#vtex-website"
+    ]
+  },
+  "menu-item#vtex-website": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "visit vtex.com"
+      }
+    }
+  }
+}

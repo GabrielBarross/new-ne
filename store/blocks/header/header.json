@@ -1,0 +1,124 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#1-desktop",
+      "header-row#2-desktop",
+      "header-row#3-desktop"
+    ]
+  },
+
+  "header-row#1-desktop": {
+    "children": [
+      "header-spacer",
+      "login",
+      "vtex.menu@2.x:menu#top"
+    ],
+    "props": {
+      "blockClass": "menu-link"
+    }
+  },
+  "header-row#2-desktop": {
+    "children": [
+      "logo#desktop",
+      "header-spacer",
+      "search-bar",
+      "header-spacer",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header"
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://naturalessencia.vteximg.com.br/arquivos/logo_custom.png",
+      "width": "260"
+    }
+  },
+
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "Go to checkout",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10,
+      "labelClasses": "gray"
+    }
+  },
+
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-mobile"
+    ]
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+
+  "header-row#3-desktop":{
+    "children":[
+      "vtex.menu@2.x:menu#category-menu"
+    ],
+    "props":{
+      "inverted": true,
+      "blockClass": "mainMenu"
+    }
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#all",
+      "menu-item#physical",
+      "menu-item#beauty"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://naturalessencia.vteximg.com.br/arquivos/logo_custom.png",
+      "width": "70"
+    }
+  }
+}
