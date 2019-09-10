@@ -58,6 +58,12 @@
   padding: 0px;
   margin: 2px;
 }
+.newsletter .container .confirmationTitle{
+  padding-top: 10px;
+}
+.newsletter .container .confirmationTitle , .newsletter .container .confirmationText{
+  color: #fff;
+}
 
 .newsletter .inputGroup input{
   width: 15rem;
