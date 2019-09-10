@@ -47,10 +47,16 @@
   color: #fff;
 }
 
-.newsletter .inputGroup label div{
+.newsletter .inputGroup label div:nth-child(1){
   background: #fff;
   padding: 0px 10px;
   height: 2rem;
+}
+
+.newsletter .inputGroup label div:nth-child(2){
+  color: #fff;
+  padding: 0px;
+  margin: 2px;
 }
 
 .newsletter .inputGroup input{
