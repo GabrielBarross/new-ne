@@ -34,7 +34,6 @@
       "logo#desktop",
       "header-spacer",
       "search-bar",
-      "header-spacer",
       "minicart"
     ],
     "props": {

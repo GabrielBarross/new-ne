@@ -2,12 +2,10 @@
 .menuItem--first-type .styledLinkContainer{
     margin: 10px;
     border: solid 2px #fb750d;
-    padding: 5px 0px;
+    padding: 10px 0px;
     border-radius: 10px 0;
     transition: 300ms;
     background: #fff;
-    display: table;
-    float: right;
     margin-right: 10px;
     position: relative;
     width: 70px;
@@ -25,7 +23,7 @@
 .menuItem--second-type .styledLinkContainer{
     margin: 10px;
     border: solid 2px #00a917;
-    padding: 5px 0px;
+    padding: 10px 0px;
     border-radius: 10px 0;
     transition: 300ms;
     background: #fff;
@@ -37,17 +35,18 @@
 }
 
 .menuItem--second-type span div{
-    text-align: center;
+    text-align: left;
     white-space: normal;
     font-size: 13px;
     color: #00a917;
+    padding-left: 2px
 }
 
 /* TOP MENU - ITEM VERDE ESCURO */
 .menuItem--third-type .styledLinkContainer{
     margin: 10px;
     border: solid 2px #002d00;
-    padding: 5px 0px;
+    padding: 10px 0px;
     border-radius: 10px 0;
     transition: 300ms;
     background: #fff;
@@ -59,14 +58,58 @@
 }
 
 .menuItem--third-type span div{
-    text-align: center;
+    text-align: left;
     white-space: normal;
     font-size: 13px;
     color: #002d00;
+    padding-left: 2px;
 }
 
 .menuContainer--mainNav , .menuContainer--mainNav .styledLinkContainer:nth-child(1) {
     height: 80px;
 }
+
+.menuContainer--topMenu li:nth-child(3) span div:before{
+    content: "";
+    background: url(https://naturalessencia.vteximg.com.br/arquivos/recipeIcon.png) no-repeat;
+    width: 33px;
+    background-size: 26px;
+    display: inline-block;
+    padding: 2px;
+    margin: 0px 3px;
+}
+
+.menuContainer--topMenu li:nth-child(4) span div:before{
+    content: "";
+    background: url(https://naturalessencia.vteximg.com.br/arquivos/storesIcon.png) no-repeat;
+    width: 33px;
+    background-size: 26px;
+    display: inline-block;
+    padding: 2px;
+    margin: 0px 3px;
+}
+
+.menuContainer--topMenu li:nth-child(5) span div:before{
+    content: "";
+    background: url(https://naturalessencia.vteximg.com.br/arquivos/whatsIcon.png) no-repeat;
+    width: 33px;
+    background-size: 26px;
+    display: inline-block;
+    padding: 2px;
+    margin: 0px 3px;
+}
+
+.menuContainer--topMenu li:nth-child(6) span div:before{
+    content: "";
+    background: url(https://naturalessencia.vteximg.com.br/arquivos/phoneIcon.png) no-repeat;
+    width: 33px;
+    background-size: 26px;
+    display: inline-block;
+    padding: 2px;
+    margin: 0px 3px;
+}
+
+
+
 
 

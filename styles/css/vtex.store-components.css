@@ -67,6 +67,11 @@
   margin-bottom: 20px;
 }
 
+.logoImage{
+  position: absolute;
+  top: -50px;
+}
+
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;

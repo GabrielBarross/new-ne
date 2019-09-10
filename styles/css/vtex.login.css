@@ -1,0 +1,35 @@
+.container{
+    border: solid 2px #fb750d;
+    border-radius: 10px 0;
+    position: relative;
+    width: 70px;
+    height: 52px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.container button{
+    width: 66px;
+    background: transparent !important;
+}
+
+.label{
+    font-size: 12px;
+    padding-left: 7px;
+    padding-top: 6px;
+    color: #fb750d;
+}
+
+.label:before{
+    content: "";
+    background: url(https://naturalessencia.vteximg.com.br/arquivos/loginIcon.png) no-repeat;
+    background-size: 13px;
+    width: 15px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 25px;
+}
+
+

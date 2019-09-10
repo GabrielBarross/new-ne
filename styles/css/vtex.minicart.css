@@ -1,0 +1,48 @@
+.container{
+    overflow: hidden;
+    text-indent: 0;
+    border-radius: 10px 0px;
+    background-color: #fb750d;
+    color: #fff;
+    width: 170px;
+    margin: 10px;  
+}
+
+.container button{
+    font-size: 0;
+    color: #fff !important;
+    top: 0;
+    right: 0;
+    width: 170px;
+    text-align: left;
+    background: #fb750d !important;
+    position: relative;
+}
+
+.container button:after{
+    content: "MEU CARRINHO";
+    color: #fff;
+    font-size: 12px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 11px;
+    left: 35px;
+}
+
+.container button:hover{
+    background: #fb750d;
+}
+
+.container button div:nth-child(1){
+    justify-content: left;
+}
+
+.container svg{
+    color: #fff;
+}
+.badge{
+    background: #0000;
+    font-size: 17px;
+    right: -127px;
+    top: -2px;
+}
