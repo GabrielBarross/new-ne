@@ -4,11 +4,9 @@
       "carousel#home",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
       "shelf#home",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      "shelf#home2",
+      "shelf#home3",
       "newsletter"
     ]
   },
@@ -29,17 +27,55 @@
   },
 
   "shelf#home": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 15,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Emagreça com Saúde"
+      }
+    }
+  },
+
+  "shelf#home2": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
         "maxItems": 10,
-        "itemsPerPage": 5,
-        "minItemsPerPage": 1.5,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Top sellers"
+        "titleText": "Cuide da sua Pele"
+      }
+    }
+  },
+
+  "shelf#home3": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
       }
     }
   },
@@ -60,37 +96,14 @@
       "showSavings": true,
       "name": {
         "showBrandName": true,
-        "showSku": true,
-        "showProductReference": true
+        "showSku": true
       }
     }
   },
 
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+  "newsletter":{
+    "props":{
+      "label": "Cadastre-se e receba nossas ofertas!"
     }
   }
 }

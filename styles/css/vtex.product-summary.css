@@ -1,0 +1,12 @@
+.imageNormal{
+    border: 1px solid #d0d0d0;
+    width: 16rem;
+}
+
+.containerNormal{
+    padding: 20px 50px;
+}
+
+.buyButton button{
+    border-radius: 10px 0px;
+}

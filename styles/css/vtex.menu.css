@@ -19,6 +19,10 @@
     color: #fb750d;
 }
 
+.menuItem--first-type{
+    z-index: 9999;
+}
+
 /* TOP MENU - ITEM VERDE CLARO */
 .menuItem--second-type .styledLinkContainer{
     margin: 10px;
@@ -27,8 +31,6 @@
     border-radius: 10px 0;
     transition: 300ms;
     background: #fff;
-    display: table;
-    float: right;
     margin-right: 10px;
     position: relative;
     width: 130px;
@@ -41,6 +43,9 @@
     color: #00a917;
     padding-left: 2px
 }
+.menuItem--second-type{
+    z-index: 9999;
+}
 
 /* TOP MENU - ITEM VERDE ESCURO */
 .menuItem--third-type .styledLinkContainer{
@@ -50,11 +55,10 @@
     border-radius: 10px 0;
     transition: 300ms;
     background: #fff;
-    display: table;
-    float: right;
     margin-right: 10px;
     position: relative;
     width: 130px;
+
 }
 
 .menuItem--third-type span div{
@@ -63,6 +67,10 @@
     font-size: 13px;
     color: #002d00;
     padding-left: 2px;
+}
+
+.menuItem--third-type{
+    z-index: 9999;
 }
 
 .menuContainer--mainNav , .menuContainer--mainNav .styledLinkContainer:nth-child(1) {
