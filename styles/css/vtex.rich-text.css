@@ -77,4 +77,22 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+
+  .container--footerLink .paragraph{
+    margin: 0px 15px;
+    font-size: 14px;
+  }
+
+  .container--footerTitle .paragraph{
+    margin: 5px 15px;
+    font-weight: bold;
+    color: #00a917;
+    font-size: 18px;
+  }
+
+  .container--footerLikebox .paragraph{
+    margin: 0px;
+    position: absolute;
+  }
+
 }

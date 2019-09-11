@@ -93,7 +93,9 @@
 
   "header-row#3-desktop":{
     "children":[
-      "vtex.menu@2.x:menu#category-menu"
+      "header-spacer",
+      "vtex.menu@2.x:menu#category-menu",
+      "header-spacer"
     ],
     "props":{
       "inverted": true,

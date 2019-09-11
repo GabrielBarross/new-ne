@@ -1,0 +1,783 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#all",
+      "menu-item#physical",
+      "menu-item#beauty",
+      "menu-item#weigth",
+      "menu-item#quality",
+      "menu-item#vegan",
+      "menu-item#news"
+    ],
+    "props":{
+      "inverted": true,
+      "blockClass": "mainNav"
+    }
+  },
+
+  // ------ TODOS OS DEPARTAMENTOS ------ //
+  "menu-item#all": {
+    "props": {
+      "id": "menu-item-all",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Todos os Departamentos",
+        "text": "Ver todos os departamentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#subAll"
+    ]
+  },
+  "vtex.menu@2.x:submenu#subAll":{
+    "children":[
+      "vtex.menu@2.x:menu#menuAll"
+    ]
+  },
+  "vtex.menu@2.x:menu#menuAll":{
+    "children":[
+      "menu-item#allPhysical",
+      "menu-item#allBeauty",
+      "menu-item#allWeigth",
+      "menu-item#allQuality",
+      "menu-item#allVegan",
+      "menu-item#allNews"
+    ],
+    "props":{
+      "blockClass":"submenuMain"
+    }
+  },
+  "menu-item#allPhysical":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Desempenho Físico (Todos Dep)",
+        "text": "Desempenho Físico"
+      }
+    }
+  },
+  "menu-item#allBeauty":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Beleza (Todos Dep)",
+        "text": "Beleza"
+      }
+    }
+  },
+  "menu-item#allWeigth":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Emagrecimento (Todos Dep)",
+        "text": "Emagrecimento"
+      }
+    }
+  },
+  "menu-item#allQuality":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Qualidade (Todos Dep)",
+        "text": "Qualidade de Vida"
+      }
+    }
+  },
+  "menu-item#allVegan":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Vegano (Todos Dep)",
+        "text": "Vegano & Glúten Free."
+      }
+    }
+  },
+  "menu-item#allNews":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Novidades (Todos Dep)",
+        "text": "Novidades"
+      }
+    }
+  },
+
+  // ----- DESEMPENHO FÍSICO ----- //
+  "menu-item#physical": {
+    "props": {
+      "id": "menu-item-physical",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": true,
+        "tagTitle": "Desempenho Físico",
+        "text": "Desempenho Físico"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#subPhysical"
+    ]
+  },
+  "vtex.menu@2.x:submenu#subPhysical":{
+    "children":[
+      "vtex.menu@2.x:menu#menuPhysical"
+    ]
+  },
+  "vtex.menu@2.x:menu#menuPhysical":{
+    "children":[
+      "menu-item#mainMuscular",
+      "menu-item#mainEnergy",
+      "menu-item#mainGH",
+      "menu-item#mainPre",
+      "menu-item#mainPos",
+      "menu-item#mainSexual",
+      "menu-item#mainProtection"
+    ],
+    "props":{
+      "blockClass":"submenuMain"
+    }
+  },
+  "menu-item#mainMuscular":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Massa Muscular",
+        "text": "Massa Muscular"
+      }
+    }
+  },
+  "menu-item#mainEnergy":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Energia",
+        "text": "Energia"
+      }
+    }
+  },
+  "menu-item#mainGH":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "GH & Testosterona",
+        "text": "GH & Testosterona"
+      }
+    }
+  },
+  "menu-item#mainPre":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Pré Treino",
+        "text": "Pré Treino"
+      }
+    }
+  },
+  "menu-item#mainPos":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Pós Treino",
+        "text": "Pós Treino"
+      }
+    }
+  },
+  "menu-item#mainSexual":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Libído",
+        "text": "Libído & Desempenho Sexual"
+      }
+    }
+  },
+  "menu-item#mainProtection":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Qualidade e Proteção",
+        "text": "Qualidade e Proteção para Treinos"
+      }
+    }
+  },
+
+  // ------ Beleza ------- //
+  "menu-item#beauty": {
+    "props": {
+      "id": "menu-item-beauty",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/d",
+        "noFollow": true,
+        "tagTitle": "Beleza",
+        "text": "Beleza"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#subBeauty"
+    ]
+  },
+  "vtex.menu@2.x:submenu#subBeauty":{
+    "children":[
+      "vtex.menu@2.x:menu#menuBeauty"
+    ]
+  },
+  "vtex.menu@2.x:menu#menuBeauty":{
+    "children":[
+      "menu-item#mainHair",
+      "menu-item#mainBeard",
+      "menu-item#mainFace",
+      "menu-item#mainBody",
+      "menu-item#mainDetox",
+      "menu-item#mainCosmetic",
+      "menu-item#mainSolar"
+    ],
+    "props":{
+      "blockClass":"submenuMain"
+    }
+  },
+  "menu-item#mainHair":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Cabelos",
+        "text": "Cabelos"
+      }
+    }
+  },
+  "menu-item#mainBeard":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Barba",
+        "text": "Barba"
+      }
+    }
+  },
+  "menu-item#mainFace":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Rosto",
+        "text": "Rosto"
+      }
+    }
+  },
+  "menu-item#mainBody":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Corpo",
+        "text": "Corpo"
+      }
+    }
+  },
+  "menu-item#mainDetox":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Antiox e Detox",
+        "text": "Antiox e Detox"
+      }
+    }
+  },
+  "menu-item#mainCosmetic":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Cosmética Oral",
+        "text": "Cosmética Oral"
+      }
+    }
+  },
+  "menu-item#mainSolar":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Protetor Solar",
+        "text": "Protetor Solar"
+      }
+    }
+  },
+
+
+  // ----- EMAGRECIMENTO ----- //
+  "menu-item#weigth":{
+    "props": {
+      "id": "menu-item-weigth",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/d",
+        "noFollow": true,
+        "tagTitle": "Emagrecimento",
+        "text": "Emagrecimento"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#subWeigth"
+    ]
+  },
+  "vtex.menu@2.x:submenu#subWeigth":{
+    "children":[
+      "vtex.menu@2.x:menu#menuWeigth"
+    ]
+  },
+  "vtex.menu@2.x:menu#menuWeigth":{
+    "children":[
+      "menu-item#mainCandy",
+      "menu-item#mainStress",
+      "menu-item#mainCompulsion",
+      "menu-item#mainCarb",
+      "menu-item#mainFat",
+      "menu-item#mainSatiety",
+      "menu-item#mainMetabolism",
+      "menu-item#mainAbdominal",
+      "menu-item#mainMeasures",
+      "menu-item#mainCellulitis",
+      "menu-item#mainDiuretic",
+      "menu-item#mainDetox2",
+      "menu-item#mainLactobacilli",
+      "menu-item#mainGrain"
+    ],
+    "props":{
+      "blockClass":"submenuMain"
+    }
+  },
+  "menu-item#mainCandy":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Vontade de Doces",
+        "text": "Vontade de Doces"
+      }
+    }
+  },
+  "menu-item#mainStress":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Ansiedade",
+        "text": "Ansiedade e Estresse"
+      }
+    }
+  },
+  "menu-item#mainCompulsion":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Compulsão Alimentar",
+        "text": "Compulsão Alimentar"
+      }
+    }
+  },
+  "menu-item#mainCarb":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Bloquear Carboidratos",
+        "text": "Bloquear Carboidratos"
+      }
+    }
+  },
+  "menu-item#mainFat":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Bloquear Gordura",
+        "text": "Bloquear Gordura"
+      }
+    }
+  },
+  "menu-item#mainSatiety":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Aumentar Saciedade",
+        "text": "Aumentar Saciedade"
+      }
+    }
+  },
+  "menu-item#mainMetabolism":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Acelerar Metabolismo",
+        "text": "Acelerar Metabolismo"
+      }
+    }
+  },
+  "menu-item#mainAbdominal":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Gordura Abdominal",
+        "text": "Gordura Abdominal"
+      }
+    }
+  },
+  "menu-item#mainMeasures":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Redutores Medidas",
+        "text": "Redutores Medidas"
+      }
+    }
+  },
+  "menu-item#mainCellulitis":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Reduzir Celulites",
+        "text": "Reduzir Celulites"
+      }
+    }
+  },
+  "menu-item#mainDiuretic":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Diuréticos",
+        "text": "Diuréticos"
+      }
+    }
+  },
+  "menu-item#mainDetox2":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Detox em Cápsulas",
+        "text": "Detox em Cápsulas"
+      }
+    }
+  },
+  "menu-item#mainLactobacilli":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Lactobacilos",
+        "text": "Lactobacilos"
+      }
+    }
+  },
+  "menu-item#mainGrain":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Fibra Sacia Fome",
+        "text": "Fibra Sacia Fome"
+      }
+    }
+  },
+
+
+  // ---- QUALIDADE DE VIDA ----- //
+  "menu-item#quality":{
+    "props": {
+      "id": "menu-item-quality",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/d",
+        "noFollow": true,
+        "tagTitle": "Qualidade de Vida",
+        "text": "Qualidade de Vida"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#subQuality"
+    ]
+  },
+  "vtex.menu@2.x:submenu#subQuality":{
+    "children":[
+      "vtex.menu@2.x:menu#menuQuality"
+    ]
+  },
+  "vtex.menu@2.x:menu#menuQuality":{
+    "children":[
+      "menu-item#mainOil",
+      "menu-item#mainStimulating",
+      "menu-item#mainDisposition",
+      "menu-item#mainMemory",
+      "menu-item#mainImunity",
+      "menu-item#mainBones",
+      "menu-item#mainVitamin",
+      "menu-item#mainSkin",
+      "menu-item#mainIntestinal",
+      "menu-item#mainWoman",
+      "menu-item#mainProblems",
+      "menu-item#mainHomeopathy",
+      "menu-item#mainWeleda"
+    ],
+    "props":{
+      "blockClass":"submenuMain"
+    }
+  },
+
+  "menu-item#mainOil":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Cápsulas Oleosas",
+        "text": "Cápsulas Oleosas"
+      }
+    }
+  },
+  "menu-item#mainStimulating":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Estimulante Sexual",
+        "text": "Estimulante Sexual"
+      }
+    }
+  },
+  "menu-item#mainDisposition":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Energia e Disposição",
+        "text": "Energia e Disposição"
+      }
+    }
+  },
+  "menu-item#mainMemory":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Memória e Concentração",
+        "text": "Memória e Concentração"
+      }
+    }
+  },
+  "menu-item#mainImunity":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Aumentar a Imunidade",
+        "text": "Aumentar a Imunidade"
+      }
+    }
+  },
+  "menu-item#mainBones":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Ossos e Cartilagens",
+        "text": "Ossos e Cartilagens"
+      }
+    }
+  },
+  "menu-item#mainVitamin":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Vitaminas e Materiais",
+        "text": "Vitaminas e Materiais"
+      }
+    }
+  },
+  "menu-item#mainSkin":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Alterações de Pele",
+        "text": "Alterações de Pele"
+      }
+    }
+  },
+  "menu-item#mainIntestinal":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Função Intestinal",
+        "text": "Função Intestinal"
+      }
+    }
+  },
+  "menu-item#mainWoman":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Saúde da Mulher",
+        "text": "Saúde da Mulher"
+      }
+    }
+  },
+  "menu-item#mainProblems":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Problemas de Saúde",
+        "text": "Problemas de Saúde"
+      }
+    }
+  },
+  "menu-item#mainHomeopathy":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Florais e Homeopatia",
+        "text": "Florais e Homeopatia"
+      }
+    }
+  },
+  "menu-item#mainWeleda":{
+    "props":{
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Weleda",
+        "text": "Weleda"
+      }
+    }
+  },
+
+
+  // ---- VEGAN ---- //
+  "menu-item#vegan":{
+    "props": {
+      "id": "menu-item-vegan",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/d",
+        "noFollow": true,
+        "tagTitle": "Veganos",
+        "text": "Veganos & Glúten Free"
+      }
+    },
+    "blocks": [
+
+    ]
+  },
+  "menu-item#news":{
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/d",
+        "noFollow": true,
+        "tagTitle": "Novidades",
+        "text": "Novidades"
+      }
+    },
+    "blocks": [
+
+    ]
+  }
+}

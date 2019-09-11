@@ -1,0 +1,253 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "footer-spacer",
+      "flex-layout.col#institutional",
+      "flex-layout.col#payment",
+      "flex-layout.col#facebook",
+      "footer-spacer"
+    ],
+    "props": {
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+
+  // ----- INSTITUCIONAIS ---- //
+  "flex-layout.col#institutional":{
+    "children":[
+      "rich-text#titleInstitutional",
+      "flex-layout.row#insideInstitutional"
+    ]
+  },
+  "flex-layout.row#insideInstitutional":{
+    "children":[
+
+      "flex-layout.col#insideInstitutional1",
+      "flex-layout.col#insideInstitutional2"
+    ]
+  },
+  "flex-layout.col#insideInstitutional1":{
+    "children":[
+      "rich-text#howtoBuy",
+      "rich-text#Security",
+      "rich-text#Change",
+      "rich-text#PaymentInfo"
+    ]
+  },
+  "rich-text#titleInstitutional":{
+    "props":{
+      "text": "Institucional",
+      "blockClass": "footerTitle"
+    }
+  },
+  "rich-text#howtoBuy":{
+    "props":{
+      "text": "Como Comprar",
+      "blockClass": "footerLink"
+    }
+  },
+  "rich-text#Security":{
+    "props":{
+      "text": "Segurança",
+      "blockClass": "footerLink"
+    }
+  },
+  "rich-text#Change":{
+    "props":{
+      "text": "Trocas e Devoluções",
+      "blockClass": "footerLink"
+    }
+  },
+  "rich-text#PaymentInfo":{
+    "props":{
+      "text": "Pagamento",
+      "blockClass": "footerLink"
+    }
+  },
+
+  "flex-layout.col#insideInstitutional2":{
+    "children":[
+      "rich-text#aboutUs",
+      "rich-text#Politics",
+      "rich-text#Send",
+      "rich-text#Recipe",
+      "rich-text#Doubts"
+    ]
+  },
+  "rich-text#aboutUs":{
+    "props":{
+      "text": "Sobre a Empresa",
+      "blockClass": "footerLink"
+    }
+  },
+  "rich-text#Politics":{
+    "props":{
+      "text": "Política",
+      "blockClass": "footerLink"
+    }
+  },
+  "rich-text#Send":{
+    "props":{
+      "text": "Envio",
+      "blockClass": "footerLink"
+    }
+  },
+  "rich-text#Recipe":{
+    "props":{
+      "text": "Manipule sua Receita",
+      "blockClass": "footerLink"
+    }
+  },
+  "rich-text#Doubts":{
+    "props":{
+      "text": "Dúvidas",
+      "blockClass": "footerLink"
+    }
+  },
+
+  "flex-layout.col#payment":{
+    "children":[
+      "rich-text#titlePayment",
+      "accepted-payment-methods",
+      "rich-text#titleSecurity"
+    ],
+    "props":{
+
+    }
+  },
+  "rich-text#titlePayment":{
+    "props":{
+      "text": "Formas de Pagamento",
+      "blockClass": "footerTitle"
+    }
+  },
+  "rich-text#titleSecurity":{
+    "props":{
+      "text": "Segurança",
+      "blockClass": "footerTitle"
+    }
+  },
+  "flex-layout.col#facebook":{
+    "children":[
+      "rich-text#likeBox"
+    ]
+  },
+  "rich-text#likeBox":{
+    "props":{
+      "text":".<iframe src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffarma.naturalessencia%2F&tabs=exemplo&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId' width='340' height='214' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media'></iframe>",
+      "blockClass": "footerLikebox"
+    }
+  },
+
+
+
+
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["accepted-payment-methods"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"],
+      "showPaymentFormsInColor": true
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  },
+
+
+
+
+
+
+  // ----- MOBILE ----- //
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  }
+}

@@ -75,6 +75,10 @@
 
 .menuContainer--mainNav , .menuContainer--mainNav .styledLinkContainer:nth-child(1) {
     height: 80px;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    border-right: 1px solid #fff;
 }
 
 .menuContainer--topMenu li:nth-child(3) span div:before{
@@ -115,6 +119,30 @@
     display: inline-block;
     padding: 2px;
     margin: 0px 3px;
+}
+
+.menuContainer--mainNav .styledLinkContainer{
+    width: 120px;
+}
+
+.menuContainer--mainNav .styledLink{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.menuContainer--mainNav .menuContainer--submenuMain .styledLink{
+    color: #000;
+}
+
+.menuContainer--submenuMain{
+    flex-direction: column;
+}
+.menuContainer--mainNav .styledLink div:last-child{
+    white-space: normal;
+    text-align: center;
+    font-size: 15px;
 }
 
 
