@@ -1,3 +1,4 @@
+@media only screen and (min-width: 640px) {
 .container{
     border: solid 2px #fb750d;
     border-radius: 10px 0;
@@ -37,5 +38,4 @@
     color: #fb750d;
     padding-left: 5px;
 }
-
-
+}

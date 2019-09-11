@@ -107,11 +107,6 @@
   margin-bottom: 20px;
 }
 
-.logoImage{
-  position: absolute;
-  top: -50px;
-}
-
 .sellingPriceValue , .sellingPriceLabel{
   font-weight: bold;
   color: #00A917;
@@ -138,6 +133,10 @@
 }
 
 @media only screen and (min-width: 640px) {
+  .logoImage{
+    position: absolute;
+    top: -50px;
+  }  
   .label {
     font-size: 20px;
   }
