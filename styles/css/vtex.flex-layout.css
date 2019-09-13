@@ -1,12 +1,18 @@
-.flexRow--deals {
-  background-color: #a7afbd;
-  padding: 14px 0px;
+.flexColChild--payment-methods{
+  align-self: center;
 }
 
-.flexRow--deals  .stretchChildrenWidth {
-  align-items: center;
-}
-
-.flexRow--deals .flexCol {
-  align-items: center;
+@media only screen and (min-width: 640px) {
+  .flexRow--deals {
+    background-color: #a7afbd;
+    padding: 14px 0px;
+  }
+  
+  .flexRow--deals  .stretchChildrenWidth {
+    align-items: center;
+  }
+  
+  .flexRow--deals .flexCol {
+    align-items: center;
+  }
 }

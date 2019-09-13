@@ -57,6 +57,30 @@
   font-weight: 700;
 }
 
+.container--footer .paragraph{
+  text-align: center;
+  font-size:0.9em;
+  color: #8a8a8a;
+}
+
+.container--linkInfo-footer a{
+  color:#fb750d;
+}
+
+.container--linkInfo-footer{
+  text-align:center;
+  font-size:.9em;
+}
+
+.container--footer-links .paragraph{
+  margin: 0.3em 0;
+}
+
+.container--footer-links a{
+  color:#82cec1;
+  font-size:.9em;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

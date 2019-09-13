@@ -103,7 +103,8 @@
 
   "newsletter":{
     "props":{
-      "label": "Cadastre-se e receba nossas ofertas!"
+      "label": "Cadastre-se e receba nossas ofertas!",
+      "blockClass":"content-newsletter"
     }
   }
 }
