@@ -81,6 +81,9 @@
   font-size:.9em;
 }
 
+.container--title-intitutional{border-bottom:2px solid #eee;margin-bottom:1.5em;}
+.container--title-intitutional .paragraph{margin: 1.5em 0 0;font-weight: bold;}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

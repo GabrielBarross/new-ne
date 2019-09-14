@@ -1,0 +1,25 @@
+{
+    "store.custom#how-buy": {
+      "blocks": [
+        "flex-layout.row#intitucional"
+      ]
+    },
+    "flex-layout.row#intitucional":{
+        "children":[
+            "rich-text#title-intitutional",
+            "rich-text#text-intitutional"
+        ]
+    },
+    "rich-text#title-intitutional":{
+        "props":{
+            "text": "[TÍTULO-PÁGINA]",
+            "blockClass": "title-intitutional"
+        }
+    },
+    "rich-text#text-intitutional":{
+        "props":{
+            "text": "[TEXTO-DA-PÁGINA]",
+            "blockClass": "content-intitutional"
+        }
+    }    
+}
