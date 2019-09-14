@@ -31,10 +31,11 @@
   },
   "header-row#2-desktop": {
     "children": [
-      "logo#desktop",
       "header-spacer",
+      "logo#desktop",
       "search-bar",
-      "minicart"
+      "minicart",
+      "header-spacer"
     ],
     "props": {
       "sticky": true,
@@ -46,7 +47,7 @@
       "title": "Logo",
       "href": "/",
       "url": "https://naturalessencia.vteximg.com.br/arquivos/logo_custom.png",
-      "width": "260"
+      "width": "200"
     }
   },
 

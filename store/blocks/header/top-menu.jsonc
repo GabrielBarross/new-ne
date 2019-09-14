@@ -98,40 +98,18 @@
   },
   "vtex.menu@2.x:submenu#whatsInfo":{
     "children":[
-      "flex-layout.row#whatsTop"
+      "notification.bar#whatsNumber"
     ]
   },
-  // "vtex.menu@2.x:menu#whatsTop":{
-  //   "children":[
-  //     "menu-item#whatsPhone"
-  //   ],
-  //   "props":{
-  //     "blockClass": "whatsPhone"
-  //   }
-  // },
-  // "menu-item#whatsPhone":{
-  //   "props":{
-  //     "text": "(41) 98728-1243"
-  //   }
-  // },
-
-
-  "flex-layout.row#whatsTop":{
-    "children":[
-      "flex-layout.col#whatsTop"
-    ]
-  },
-  "flex-layout.col#whatsTop":{
-    "children":[
-      "notification.bar#loko"
-    ]
-  },
-  "notification.bar#loko":{
+  "notification.bar#whatsNumber":{
     "props":{
       "content":"(41) 98728-1243"
     }
   },
   "menu-item#phone":{
+    "blocks":[
+      "vtex.menu@2.x:submenu#phoneInfo"
+    ],
     "props":{
       "id": "menu-item-phone",
       "type": "custom",
@@ -147,12 +125,16 @@
       }
     }
   },
-
-
-
-
-
-
+  "vtex.menu@2.x:submenu#phoneInfo":{
+    "children":[
+      "notification.bar#phoneNumber"
+    ]
+  },
+  "notification.bar#phoneNumber":{
+    "props":{
+      "content":"(41) 3621-4856"
+    }
+  },
 
 
   "menu-item#shop": {

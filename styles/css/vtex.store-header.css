@@ -2,10 +2,6 @@
   font-size: 14px;
 }
 
-.headerRow--main-header .headerRowBackground {
-
-}
-
 .headerRow--main-header :global(.vtex-menu-2-x-styledLink)  {
   color: #727273;
   font-size: 14px;
@@ -18,6 +14,10 @@
 
 .headerRowBackground--mainMenu{
   height: 80px;
+}
+
+.headerRow--main-header{
+  padding: 0px 0px 10px;
 }
 
 /* .headerRow--menu-link , .headerRow--main-header{

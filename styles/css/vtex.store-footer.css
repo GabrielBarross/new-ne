@@ -14,4 +14,9 @@
   .acceptedPaymentMethodContainer{
     margin-left: 10px;
   }
+
+  .socialNetworksContainer{
+    margin: 0px 10px;
+    padding: 35px 0px;
+  }
 }

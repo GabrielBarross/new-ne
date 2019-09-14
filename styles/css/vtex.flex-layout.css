@@ -15,4 +15,11 @@
   .flexRow--deals .flexCol {
     align-items: center;
   }
+
+  .flexRow--footerSecond{
+    background-color: #00a917;
+    margin-top: 65px;
+  }
+
+  
 }

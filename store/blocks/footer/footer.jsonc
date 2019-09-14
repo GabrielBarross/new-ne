@@ -178,11 +178,47 @@
   },
 
   "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+    "children": [
+      "footer-spacer",
+      "social-networks",
+      "footer-spacer",
+      "rich-text#contactFooter",
+      "footer-spacer"
+    ],
     "props": {
-      "blockClass": "payment-methods"
+      "blockClass": "footerSecond"
     }
   },
+  "social-networks":{
+    "props":{
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/",
+          "color": "#fff"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
+    }
+  },
+  "rich-text#contactFooter":{
+    "props":{
+      "text": "Central de Atendimento: (41) 3621-4856 Seg. à Sex. das 8h às 18h | Sábados das 8h às 12h",
+      "blockClass": "contactFooterClass"
+    }
+  },
+
   "accepted-payment-methods": {
     "props": {
       "paymentMethods": ["MasterCard", "Visa", "Diners Club"],
@@ -191,14 +227,18 @@
   },
 
   "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+    "children": [
+      "footer-spacer",
+      "rich-text#footer",
+      "footer-spacer"
+    ],
     "props": {
       "blockClass": "credits"
     }
   },
   "rich-text#footer": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "CNPJ 04.652.274/0001-16 Rua Odonis Bighi, 53 - Jardim das Flores Colombo/PR Filial: Rua México, 694 - Bacacheri Curitiba/Pr Farmacêutica Responsável: Mayara Atz Danesi - CRF/PR 24420. Autorização ANVISA: AFE Nº0.48.696-0 - AE nº 1.36.964-0. Certidão de Regularidade: CRF/PR Nº 13526. Licença VISA nº 01.156.313",
       "blockClass": "footer"
     }
   },

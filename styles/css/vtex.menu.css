@@ -122,7 +122,7 @@
 }
 
 .menuContainer--mainNav .styledLinkContainer{
-    width: 120px;
+    width: 9.7rem;
 }
 
 .menuContainer--mainNav .styledLink{
@@ -132,20 +132,132 @@
     color: #fff;
 }
 
-.menuContainer--mainNav .menuContainer--submenuMain .styledLink{
-    color: #000;
-}
-
-.menuContainer--submenuMain{
-    flex-direction: column;
-}
 .menuContainer--mainNav .styledLink div:last-child{
     white-space: normal;
     text-align: center;
     font-size: 15px;
+    display: block;
+}
+
+.menuContainer--topMenu{
+    margin-right: 12.6rem;
 }
 
 
+@media only screen and (min-width: 640px){
+    .menuContainer--mainNav .menuContainer--submenuMain .styledLink{
+        color: #000;
+    }
+    
+    .menuContainer--mainNav .menuContainer--submenuMain{
+        flex-direction: column;
+        width: 275px;
+    }
+    
+    .menuContainer--mainNav .menuContainer--submenuMain .styledLinkContainer{
+        padding: 10px;
+        height: 35px;
+        margin: 0px 10px;
+        padding: 8px;
+        width: auto;
+        border-bottom: 1px solid #ababab;
+        border-radius: 0px;
+        display: block;
+    }
+    .menuContainer--submenuMain .styledLinkContainer:hover{
+        background: #00a917;
+        transition: 1s;
+    }
+    .menuContainer--submenuMain .styledLinkContainer:hover .styledLink div:last-child{
+        color: #fff;
+    }
+    .menuContainer--mainNav .menuContainer--submenuMain .styledLink div:last-child{
+        text-align: left;
+    }
+
+    .menuContainer--mainNav .menuItem:nth-child(1){
+        background: #002d00;
+    }
+
+    .menuContainer--mainNav .menuContainer--submenuMain .menuItem{
+        background: #fff;
+    }
+
+    .menuContainer--mainNav .menuItem:nth-child(1) .styledLink::before{
+        content: "";
+        background: url(https://naturalessencia.vteximg.com.br/arquivos/menuIcon.png) no-repeat;
+        background-size: 30px;
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin: 3px auto;
+    }
+
+    .menuContainer--mainNav .menuItem:nth-child(2) .styledLink::before{
+        content: "";
+        background: url(https://naturalessencia.vteximg.com.br/arquivos/physicalIcon.png) no-repeat;
+        display: block;
+        background-size: 35px;
+        width: 35px;
+        height: 45px;
+        margin: 3px auto;
+    }
+
+    .menuContainer--mainNav .menuItem:nth-child(3) .styledLink::before{
+        content: "";
+        background: url(https://naturalessencia.vteximg.com.br/arquivos/beautyIcon.png) no-repeat;
+        display: block;
+        background-size: 40px;
+        width: 35px;
+        height: 45px;
+        margin: 3px auto;
+    }
+
+    .menuContainer--mainNav .menuItem:nth-child(4) .styledLink::before{
+        content: "";
+        background: url(https://naturalessencia.vteximg.com.br/arquivos/weightIcon.png) no-repeat;
+        display: block;
+        background-size: 50px;
+        width: 47px;
+        height: 45px;
+        margin: 3px auto;
+    }
+
+    .menuContainer--mainNav .menuItem:nth-child(5) .styledLink::before{
+        content: "";
+        background: url(https://naturalessencia.vteximg.com.br/arquivos/qualityIcon.png) no-repeat;
+        display: block;
+        background-size: 35px;
+        width: 35px;
+        height: 45px;
+        margin: 3px auto;
+    }
+
+    .menuContainer--mainNav .menuItem:nth-child(6) .styledLink::before{
+        content: "";
+        background: url(https://naturalessencia.vteximg.com.br/arquivos/veganIcon.png) no-repeat;
+        display: block;
+        background-size: 40px;
+        width: 35px;
+        height: 33px;
+        margin: 3px auto;
+    }
+
+    .menuContainer--mainNav .menuItem:nth-child(7) .styledLink::before{
+        content: "";
+        background: url(https://naturalessencia.vteximg.com.br/arquivos/newsIcon.png) no-repeat;
+        display: block;
+        background-size: 35px;
+        width: 35px;
+        height: 45px;
+        margin: 3px auto;
+    }
+
+    .menuContainer--mainNav .menuContainer--submenuMain .menuItem .styledLink::before{
+        content: none;
+    }
+    
+}
 
 
 @media only screen and (max-width: 640px) {
@@ -159,4 +271,9 @@
     }
     .styledLink{color: #fff;}
     .styledLink *{color:#fff;}
+
+    .menuContainer {
+        width: 100%;
+        display: block;
+    }
 }
