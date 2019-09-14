@@ -120,7 +120,8 @@
     "children":[
       "rich-text#titlePayment",
       "accepted-payment-methods",
-      "rich-text#titleSecurity"
+      "rich-text#titleNetworks",
+      "social-networks"
     ],
     "props":{
 
@@ -132,9 +133,9 @@
       "blockClass": "footerTitle"
     }
   },
-  "rich-text#titleSecurity":{
+  "rich-text#titleNetworks":{
     "props":{
-      "text": "Segurança",
+      "text": "Redes Sociais",
       "blockClass": "footerTitle"
     }
   },
@@ -149,10 +150,6 @@
       "blockClass": "footerLikebox"
     }
   },
-
-
-
-
 
   "social-networks": {
     "props": {
@@ -180,7 +177,7 @@
   "flex-layout.row#footer-2-desktop": {
     "children": [
       "footer-spacer",
-      "social-networks",
+      "rich-text#Encrypt",
       "footer-spacer",
       "rich-text#contactFooter",
       "footer-spacer"
@@ -189,6 +186,12 @@
       "blockClass": "footerSecond"
     }
   },
+  "rich-text#Encrypt":{
+    "props":{
+      "text": "![Let's Encrypt](https://analoren.vteximg.com.br/arquivos/encrypt.png 'Encrypt')"
+    }
+  },
+
   "social-networks":{
     "props":{
       "socialNetworks": [
