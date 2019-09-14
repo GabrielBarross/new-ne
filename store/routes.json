@@ -2,8 +2,8 @@
     "store.custom#about-us": {
       "path": "/about-us"
     },
-    "store.custom#how-buy":{
-      "path": "/how-buy"
+    "store.custom#default-institucional":{
+      "path": "/default-institucional"
     }
 
 }
