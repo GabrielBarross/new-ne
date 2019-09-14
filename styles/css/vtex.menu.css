@@ -265,15 +265,21 @@
         background: #82cec1;
         color: #fff;
     }
+
+    .menuItem *{
+        position:inherit;
+    }
+
+    .menuItem > div:last-child > div{border:0;padding:0;}
+    .menuContainer--submenuMain{display: block;}
+    .menuContainer--submenuMain .menuItem{
+        background: #509c8f;
+        padding-left: 1em;
+    }
     .styledLinkContainer{
         padding: 1em 0;
         border-bottom: 1px solid #67b9ab;
     }
     .styledLink{color: #fff;}
     .styledLink *{color:#fff;}
-
-    .menuContainer {
-        width: 100%;
-        display: block;
-    }
 }
