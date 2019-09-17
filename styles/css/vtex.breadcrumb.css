@@ -1,0 +1,17 @@
+.link svg{
+    display: none;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.link:nth-child(1)::before{
+    content: "Pagina Inicial";
+    color: #00a917;
+}
+
+.arrow , .link , .term{
+    font-size: 12px;
+}

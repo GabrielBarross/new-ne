@@ -18,6 +18,10 @@
   .socialNetworksContainer{
     margin: 0px 10px;
   }
+
+  .footerLayout{
+    border-top: 3px solid #ccc;
+  }
 }
 
 @media only screen and (max-width: 640px){

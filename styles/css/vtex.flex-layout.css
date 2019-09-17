@@ -33,5 +33,28 @@
     margin-top: 65px;
   }
 
+  .flexRow--mainBuyButton button{
+    color: #fff;
+    cursor: pointer;
+    width: 75%;
+    box-sizing: border-box;
+    text-align: center;
+    background: #FB750D;
+    border-radius: 10px 0;
+    font-size: 24px !important;
+    padding: 5px;
+    font-weight: 600;
+  }
+
+  .flexRow--productAllInfo{
+    width: 80%;
+    margin: 0px auto;
+  }
+
+  .flexRow--breadcrumbMain{
+    width: 80%;
+    margin: 0px auto;
+  }
+
   
 }

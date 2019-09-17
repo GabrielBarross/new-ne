@@ -47,4 +47,7 @@
     right: -127px;
     top: -2px;
 }
+.content h1 span{
+    font-size: 14px !important;
+}
 }
