@@ -6,6 +6,11 @@
     },
     "flex-layout.row#intitucional":{
         "children":[
+            "flex-layout.col#intitucionalCol"
+        ]
+    },
+    "flex-layout.col#intitucionalCol":{
+        "children":[
             "rich-text#title-intitutional",
             "rich-text#text-intitutional"
         ]

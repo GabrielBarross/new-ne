@@ -1,0 +1,22 @@
+.filterTitle{
+    padding: 10px;
+    background: #fb750d;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 10px 0px;
+}
+
+.filter__container:nth-child(1){
+    display: none;
+}
+
+.filter__container{
+    padding: 5px;
+    border: 1px solid #d1d1d1;
+    margin: 15px 5px;
+    border-radius: 15px 0px;
+}
+.filter{
+    padding: 0px;
+}
+

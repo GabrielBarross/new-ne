@@ -174,7 +174,7 @@
 
 @media only screen and (min-width: 1015px) {
 
-  .container .priceContainer{
+  /* .container .priceContainer{
     width: 100%;
     background: #f5f5f5;
     padding: 20px;
@@ -185,7 +185,7 @@
     position: relative;
   }
 
-  .container .sellingPriceValue{
+  .priceContainer--productMainPrice .sellingPriceValue{
     font-size: 30px;
     color: #FB750D;
     width: 100%;
@@ -215,7 +215,7 @@
   .container .savingPrice{
     float: left;
     width: 40%;
-  }
+  } */
 
 }
 
