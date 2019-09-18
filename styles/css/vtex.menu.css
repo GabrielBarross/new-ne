@@ -12,7 +12,7 @@
     text-align: center;
 }
 
-.menuItem--first-type span div{
+.menuItem--first-type span div , .menuItem--first-type a div{
     text-align: center;
     white-space: normal;
     font-size: 13px;
@@ -36,7 +36,7 @@
     width: 130px;
 }
 
-.menuItem--second-type span div{
+.menuItem--second-type span div , .menuItem--second-type a div{
     text-align: left;
     white-space: normal;
     font-size: 13px;
@@ -61,7 +61,7 @@
 
 }
 
-.menuItem--third-type span div{
+.menuItem--third-type span div , .menuItem--third-type a div{
     text-align: left;
     white-space: normal;
     font-size: 13px;
@@ -81,7 +81,7 @@
     border-right: 1px solid #fff;
 }
 
-.menuContainer--topMenu li:nth-child(3) span div:before{
+.menuContainer--topMenu li:nth-child(3) span div:before , .menuContainer--topMenu li:nth-child(3) a div:before{
     content: "";
     background: url(https://naturalessencia.vteximg.com.br/arquivos/recipeIcon.png) no-repeat;
     width: 33px;
@@ -91,7 +91,7 @@
     margin: 0px 3px;
 }
 
-.menuContainer--topMenu li:nth-child(4) span div:before{
+.menuContainer--topMenu li:nth-child(4) span div:before , .menuContainer--topMenu li:nth-child(4) a div:before{
     content: "";
     background: url(https://naturalessencia.vteximg.com.br/arquivos/storesIcon.png) no-repeat;
     width: 33px;
@@ -101,7 +101,7 @@
     margin: 0px 3px;
 }
 
-.menuContainer--topMenu li:nth-child(5) span div:before{
+.menuContainer--topMenu li:nth-child(5) span div:before , .menuContainer--topMenu li:nth-child(5) a div:before{
     content: "";
     background: url(https://naturalessencia.vteximg.com.br/arquivos/whatsIcon.png) no-repeat;
     width: 33px;
@@ -111,7 +111,7 @@
     margin: 0px 3px;
 }
 
-.menuContainer--topMenu li:nth-child(6) span div:before{
+.menuContainer--topMenu li:nth-child(6) span div:before , .menuContainer--topMenu li:nth-child(6) a div:before{
     content: "";
     background: url(https://naturalessencia.vteximg.com.br/arquivos/phoneIcon.png) no-repeat;
     width: 33px;

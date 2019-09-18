@@ -108,6 +108,13 @@
   .container--footerLink .paragraph{
     margin: 0px 15px;
     font-size: 14px;
+    padding: 3px 0px;
+  }
+  
+  .container--footerLink .link{
+    color: #171717;
+    text-decoration: none;
+    font-size: 12px;
   }
 
   .container--footerTitle .paragraph{
@@ -124,6 +131,11 @@
 
   .container--contactFooterClass {
     color: #fff;
+  }
+
+  .container--content-intitutional , .container--title-intitutional{
+    width: 80%;
+    margin: 0px auto;
   }
 
 }
