@@ -3,7 +3,7 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "share#default",
+      //  "share#default",
       "product-description",
       "shelf.relatedProducts",
       "product-reviews",
@@ -58,7 +58,7 @@
       "product-rating-summary",
       "product-separator",
       "product-price#product-details",
-      "product-quantity",
+      // "product-quantity",
       "product-identifier.product",
       "sku-selector",
       "flex-layout.row#buy-button",

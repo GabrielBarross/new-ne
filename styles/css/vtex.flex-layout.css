@@ -11,6 +11,7 @@
   .flexRow--content-footer-intitucional .flexColChild{
     align-self: center;
   }
+  .flexColChild--mainPriceContainer{text-align: center;}
 
 }
 

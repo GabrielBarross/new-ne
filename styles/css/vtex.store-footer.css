@@ -29,7 +29,8 @@
   .footerLayout{
     border-top: 2px solid #eee;
     padding-top: 1em;
-    background: #f9f9f9;    
+    background: #f9f9f9;  
+    margin-top: 1em;  
   }  
 
 }
